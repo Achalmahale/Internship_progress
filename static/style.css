@@ -1,0 +1,62 @@
+/* style.css */
+
+body {
+    padding-top: 20px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    color: #1976d2; /* Material Design Blue 500 */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Material Design White */
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fade-in 0.5s ease;
+}
+
+.card-title {
+    color: #222222; /* Material Design Grey 900 */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #444444; /* Material Design Grey 700 */
+    font-size: 16px;
+}
+
+.text-muted {
+    color: #888888; /* Material Design Grey 500 */
+    font-size: 12px;
+}
+
+.btn-primary {
+    background-color: #1976d2; /* Material Design Blue 500 */
+    border-color: #1976d2; /* Material Design Blue 500 */
+    animation: scale-in 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1565c0; /* Material Design Blue 700 */
+    border-color: #1565c0; /* Material Design Blue 700 */
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(25, 118, 210, 0.5); /* Material Design Blue 500 with 0.5 opacity */
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+    background-color: #1976d2; /* Material Design Blue 500 */
+    border-color: #1976d2; /* Material Design Blue 500 */
+    opacity: 0.65;
+}
